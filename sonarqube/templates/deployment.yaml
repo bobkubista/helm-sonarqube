@@ -28,9 +28,9 @@ spec:
             name: sonar-extensions
           env:
           - name: "SONARQUBE_JDBC_USERNAME"
-            value: "medium@medium"
+            value: "sonar"
           - name: "SONARQUBE_JDBC_URL"
-            value: "jdbc:postgresql://medium.postgres.database.azure.com/sonar"
+            value: "jdbc:postgresql://192.168.1.109/sonar"
           - name: "SONARQUBE_JDBC_PASSWORD"
             valueFrom:
               secretKeyRef:
