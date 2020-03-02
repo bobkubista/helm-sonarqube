@@ -20,10 +20,10 @@ spec:
           resources:
             requests:
               cpu: 500m
-              memory: 1024Mi
+              memory: 512Mi
             limits:
               cpu: 2000m
-              memory: 2048Mi
+              memory: 1024Mi
           volumeMounts:
           - mountPath: "/opt/sonarqube/data/"
             name: sonar-data
