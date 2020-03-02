@@ -6,7 +6,7 @@ metadata:
   name: sonarqube
 spec:
   replicas: 1
-  celector:
+  selector:
     matchLabels:
       name: sonarqube
   template:
