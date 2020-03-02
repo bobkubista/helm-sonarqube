@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: sonarqube
+        name: sonarqube
     spec:
       containers:
         - name: sonarqube
